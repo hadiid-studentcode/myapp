@@ -1,0 +1,60 @@
+# Executable files
+*.exe
+*.dll
+*.so
+*.dylib
+*.rpm
+*.deb
+*.bin
+
+# Build outputs
+*/bin/
+*/pkg/
+*.test
+*.prof
+
+# Dependency directories
+vendor/
+
+# Environment variables
+.env
+.env.*
+!.env.example # Keep this if you provide an example .env file
+
+# Log files
+*.log
+log/
+tmp/
+
+# IDE specific files
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code
+*.iml              # IntelliJ IDEA module files
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+
+# Go modules cache
+go.sum
+
+# Test coverage output
+*.out
+
+# Editor backup files
+*~
+*.bak
+*.swp
+.swo
+
+# Docker files (if applicable, uncomment if using Docker)
+# .dockerignore
+# Dockerfile.bak
+
+# Database files (if local, e.g., sqlite.db)
+# *.db
+# *.sqlite3
+# data/
+
+# Migrations output (if generated automatically and not part of version control)
+# If your migrations are plain SQL files that you commit, keep them.
+# If they are generated binaries or temporary files, you might want to ignore them.
+# migrations/*.bak
